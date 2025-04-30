@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: light, gray, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 5.6
-Tested up to: 6.6
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -52,9 +52,12 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Change Log ==
 
+= 3.6.5 (Released: April 30, 2025) =
+* Updated: WordPress 6.8 ready
+
 = 3.6.4 (Released: August 01, 2024) =
 * Updated: Twitter logo
-* Updated: WordPress 6.5 ready
+* Updated: WordPress 6.6 ready
 
 = 3.6.3 (Released: June 28, 2024) =
 * Updated: WordPress 6.5 ready
