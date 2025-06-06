@@ -1,7 +1,7 @@
 === Catch Everest ===
 Contributors: catchthemes
 Tags: light, gray, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
-Requires at least: 5.6
+Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
@@ -51,6 +51,9 @@ Access to free support forum at https://catchthemes.com/support-forum/forum/catc
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Change Log ==
+
+= 3.7 (Released: June 06, 2025) =
+* Added: Twitter X, Threads, Bluesky, and Tiktok icons
 
 = 3.6.5 (Released: April 30, 2025) =
 * Updated: WordPress 6.8 ready
@@ -427,7 +430,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Catch Everest WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Catch Everest WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Catch Everest is distributed under the terms of the GNU GPL
 
 == Resources ==

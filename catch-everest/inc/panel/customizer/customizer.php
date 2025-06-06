@@ -403,7 +403,7 @@ function catcheverest_customize_register( $wp_customize ) {
 			'section' 		=> 'homepage_headline_options',
 			'default' 		=> $defaults['homepage_subheadline']
 		),
-		
+
 		//Homepage/Frontpage Settings
 		'enable_posts_home' => array(
 			'id' 			=> 'enable_posts_home',
@@ -569,6 +569,16 @@ function catcheverest_customize_register( $wp_customize ) {
 			'panel' 		=> 'social_links',
 			'section' 		=> 'predefined_social_icons',
 			'default' 		=> $defaults['social_twitter']
+		),
+		'social_x' => array(
+			'id' 			=> 'social_x',
+			'title' 		=> __('X Twitter', 'catch-everest'),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'panel' 		=> 'social_links',
+			'section' 		=> 'predefined_social_icons',
+			'default' 		=> $defaults['social_x']
 		),
 		'social_googleplus' => array(
 			'id' 			=> 'social_googleplus',
@@ -839,6 +849,36 @@ function catcheverest_customize_register( $wp_customize ) {
 			'panel' 		=> 'social_links',
 			'section' 		=> 'predefined_social_icons',
 			'default' 		=> $defaults['social_xing']
+		),
+		'social_bluesky' => array(
+			'id' 			=> 'social_bluesky',
+			'title' 		=> __('Bluesky', 'catch-everest'),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'panel' 		=> 'social_links',
+			'section' 		=> 'predefined_social_icons',
+			'default' 		=> $defaults['social_bluesky']
+		),
+		'social_tiktok' => array(
+			'id' 			=> 'social_tiktok',
+			'title' 		=> __('Tiktok', 'catch-everest'),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'panel' 		=> 'social_links',
+			'section' 		=> 'predefined_social_icons',
+			'default' 		=> $defaults['social_tiktok']
+		),
+		'social_threads' => array(
+			'id' 			=> 'social_threads',
+			'title' 		=> __('Threads', 'catch-everest'),
+			'description'	=> '',
+			'field_type' 	=> 'url',
+			'sanitize' 		=> 'esc_url_raw',
+			'panel' 		=> 'social_links',
+			'section' 		=> 'predefined_social_icons',
+			'default' 		=> $defaults['social_threads']
 		),
 
 		//Webmaster Tools
@@ -1354,7 +1394,7 @@ function catcheverest_assets(){
 
 //Active callbacks for customizer
 require trailingslashit( get_template_directory() ) . 'inc/panel/customizer/customizer-active-callbacks.php';
-  
+
 //Sanitize functions for customizer
 require trailingslashit( get_template_directory() ) . 'inc/panel/customizer/customizer-sanitize-functions.php';
 

@@ -906,7 +906,11 @@ function catcheverest_social_networks() {
 						$options['social_soundcloud'],
 						$options['social_email'],
 						$options['social_contact'],
-						$options['social_xing']
+						$options['social_xing'],
+						$options['social_x'],
+						$options['social_bluesky'],
+						$options['social_tiktok'],
+						$options['social_threads']
 					);
 	$flag = 0;
 	if ( !empty( $elements ) ) {
@@ -938,6 +942,11 @@ function catcheverest_social_networks() {
 			if ( !empty( $options['social_twitter'] ) ) {
 				$catcheverest_social_networks .=
 					'<li class="twitter"><a href="'.esc_url( $options['social_twitter'] ).'" title="'. esc_attr__( 'Twitter', 'catch-everest' ) .'" target="_blank">'. esc_attr__( 'Twitter', 'catch-everest' ) .'</a></li>';
+			}
+			//X Twitter
+			if (!empty($options['social_x'])) {
+				$catcheverest_social_networks .=
+					'<li class="x"><a href="' . esc_url($options['social_x']) . '" title="' . esc_attr__('X Twitter', 'catch-everest') . '" target="_blank">' . esc_attr__('X Twitter', 'catch-everest') . '</a></li>';
 			}
 			//Google+
 			if ( !empty( $options['social_googleplus'] ) ) {
@@ -1073,6 +1082,21 @@ function catcheverest_social_networks() {
 			if ( !empty( $options['social_xing'] ) ) {
 				$catcheverest_social_networks .=
 					'<li class="xing"><a href="'.esc_url( $options['social_xing'] ).'" title="'. esc_attr__( 'Xing', 'catch-everest' ) .'" target="_blank">'. esc_attr__( 'Xing', 'catch-everest' ) .'</a></li>';
+			}
+			//Bluesky
+			if (!empty($options['social_bluesky'])) {
+				$catcheverest_social_networks .=
+					'<li class="bluesky"><a href="' . esc_url($options['social_bluesky']) . '" title="' . esc_attr__('Bluesky', 'catch-everest') . '" target="_blank">' . esc_attr__('Bluesky', 'catch-everest') . '</a></li>';
+			}
+			//Tiktok
+			if (!empty($options['social_tiktok'])) {
+				$catcheverest_social_networks .=
+					'<li class="tiktok"><a href="' . esc_url($options['social_tiktok']) . '" title="' . esc_attr__('Tiktok', 'catch-everest') . '" target="_blank">' . esc_attr__('Tiktok', 'catch-everest') . '</a></li>';
+			}
+			//Threads
+			if (!empty($options['social_threads'])) {
+				$catcheverest_social_networks .=
+					'<li class="threads"><a href="' . esc_url($options['social_threads']) . '" title="' . esc_attr__('Threads', 'catch-everest') . '" target="_blank">' . esc_attr__('Threads', 'catch-everest') . '</a></li>';
 			}
 
 			$catcheverest_social_networks .='
