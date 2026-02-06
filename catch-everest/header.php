@@ -9,18 +9,9 @@
  * @since Catch Everest 1.0
  */
 ?><!DOCTYPE html>
-<!--[if IE 6]>
-<html id="ie6" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+
 <html <?php language_attributes(); ?>>
-<!--<![endif]-->
+
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -32,32 +23,32 @@
 
 <?php do_action( 'wp_body_open' );  ?>
 
-<?php 
-/** 
+<?php
+/**
  * catcheverest_before hook
  */
 do_action( 'catcheverest_before' ); ?>
 
 <div id="page" class="hfeed site">
 
-	<?php 
-    /** 
+	<?php
+    /**
      * catcheverest_before_header hook
      */
     do_action( 'catcheverest_before_header' ); ?>
-    
+
 	<header id="masthead" role="banner">
-    
-    	<?php 
-		/** 
+
+    	<?php
+		/**
 		 * catcheverest_before_hgroup_wrap hook
 		 */
 		do_action( 'catcheverest_before_hgroup_wrap' ); ?>
-        
+
     	<div id="hgroup-wrap" class="container">
-        
-       		<?php 
-			/** 
+
+       		<?php
+			/**
 			 * catcheverest_hgroup_wrap hook
 			 *
 			 * HOOKED_FUNCTION_NAME PRIORITY
@@ -66,11 +57,11 @@ do_action( 'catcheverest_before' ); ?>
 			 * catcheverest_header_right 15
 			 */
 			do_action( 'catcheverest_hgroup_wrap' ); ?>
-            
+
         </div><!-- #hgroup-wrap -->
-        
-        <?php 
-		/** 
+
+        <?php
+		/**
 		 * catcheverest_after_hgroup_wrap hook
 		 *
 		 * HOOKED_FUNCTION_NAME PRIORITY
@@ -78,17 +69,17 @@ do_action( 'catcheverest_before' ); ?>
 		 * catcheverest_header_menu 10
 		 */
 		do_action( 'catcheverest_after_hgroup_wrap' ); ?>
-        
+
 	</header><!-- #masthead .site-header -->
-    
-	<?php 
-    /** 
+
+	<?php
+    /**
      * catcheverest_after_header hook
      */
-    do_action( 'catcheverest_after_header' ); ?> 
-        
-	<?php 
-    /** 
+    do_action( 'catcheverest_after_header' ); ?>
+
+	<?php
+    /**
      * catcheverest_before_main hook
 	 *
 	 * HOOKED_FUNCTION_NAME PRIORITY
@@ -97,12 +88,12 @@ do_action( 'catcheverest_before' ); ?>
 	 * catcheverest_homepage_headline 15
      */
     do_action( 'catcheverest_before_main' ); ?>
-    
-    
+
+
     <div id="main" class="container">
-    
-		<?php 
-        /** 
+
+		<?php
+        /**
          * catcheverest_main hook
          *
          * HOOKED_FUNCTION_NAME PRIORITY

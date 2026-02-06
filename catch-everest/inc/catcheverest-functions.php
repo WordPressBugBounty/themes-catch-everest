@@ -82,12 +82,6 @@ function catcheverest_scripts() {
 	if ( empty( $options['disable_scrollup'] ) ) {
 		wp_enqueue_script( 'catcheverest-scrollup', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'js/catcheverest-scrollup.min.js', array( 'jquery' ), '20072014', true  );
 	}
-
-	/**
-	 * Browser Specific Enqueue Script
-	 */
-	wp_enqueue_script( 'catcheverest-html5', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'js/html5.min.js', array(), '3.7.3' );
-	wp_script_add_data( 'catcheverest-html5', 'conditional', 'lt IE 9' );
 }
 add_action( 'wp_enqueue_scripts', 'catcheverest_scripts' );
 
