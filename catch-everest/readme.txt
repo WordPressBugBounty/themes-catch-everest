@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: light, gray, white, one-column, two-columns, left-sidebar, right-sidebar, fixed-width, flexible-width, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -51,6 +51,9 @@ Access to free support forum at https://catchthemes.com/support-forum/forum/catc
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Change Log ==
+
+= 3.7.2 (Released: May 26, 2026) =
+* Updated: WordPress 7.0 ready
 
 = 3.7.1 (Released: December 09, 2025) =
 * Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
@@ -434,7 +437,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Catch Everest WordPress Theme, Copyright 2012-2025 Catchthemes.com
+Catch Everest WordPress Theme, Copyright 2012-2026 Catchthemes.com
 Catch Everest is distributed under the terms of the GNU GPL
 
 == Resources ==
